@@ -12,6 +12,14 @@ body {
   margin-bottom: 0px;
 }
 
+.titulos{
+  color: white;
+  height: 50px;
+  font-family: Georgia-serif;
+  margin-bottom: 0px;
+  padding: 10px 0px 10px 0px;
+}
+
 #imgquedateencasa{
   padding-left: 20px;
   height: 100px;
@@ -34,4 +42,42 @@ body {
 
 .link{
   color:white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
 }

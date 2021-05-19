@@ -5,5 +5,40 @@
     <title></title>
   </head>
   <body>
+
+    <div class="container">
+      <div style="text-align:center">
+        <h2 class="titulos">Contactanos</h2>
+        <p class="encasa" style="font-style: oblique;">
+          Si tienes alguna pregunte no dudes en derjanos un mensaje.
+        </p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="./imagenes/ubicacion.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label class="encasa" for="fname">Nombre</label>
+            <input type="text" id="fname" name="firstname" placeholder="Tu nombre...">
+            <label class="encasa" for="lname">Apellidos</label>
+            <input type="text" id="lname" name="lastname" placeholder="Tu apellido...">
+            <label class="encasa" for="country">Ubicacion</label>
+            <select id="country" name="country">
+              <option value="australia">Mexico</option>
+              <option value="canada">USA</option>
+              <option value="usa">Canada</option>
+            </select>
+            <label class="encasa" for="subject">Mensaje</label>
+            <textarea id="subject" name="subject" placeholder="Cuentanos..." style="height:170px"></textarea>
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+      </div>
+    </div> 
+
+    </div>
+    
+
   </body>
 </html>
