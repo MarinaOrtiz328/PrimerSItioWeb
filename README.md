@@ -39,10 +39,10 @@ Daniel Flotte Corral 329842
 
 ## Instrucciones ⚙️
 
-Poner a correr el docker y entrar a la carpeta servidor_web y ejecutar la el archivo js con el node preinstalado:
+Poner a correr el docker y entrar a la carpeta pagina_web y ejecutar la el archivo js con el node preinstalado:
 
 ```
-cd /servidor_web
+cd /pagina_web
 node app.js
 ```
 
