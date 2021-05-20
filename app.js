@@ -21,7 +21,7 @@ http.createServer((request, response)=>{
             let params = Buffer.concat(data).toString();
             params += '\n';
 
-            fs.appendFile("data.txt", params, (error) => {
+            fs.appendFile("datos.txt", params, (error) => {
                 if (error){
                     response.writeHead(500,{"Content-Type":"text/plain"});
                     response.write("Error en el servidor asjdasjdasj");
