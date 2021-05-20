@@ -32,7 +32,9 @@ Puntos importantes:
 ## Miembros del equipo
 
 Ana Marina Ortiz Ruiz 329577
+
 Daniel Lopez Villalobos 315120
+
 Daniel Flotte Corral 329842
 
 ## Instrucciones ⚙️
